@@ -30,7 +30,7 @@ export default function LineChartSet() {
   const [selectedChain, setSelectedChain] = React.useState({
     image: './static/ethereum.svg',
     chain: 'Ethereum Network',
-    value: 'ETH_TEST_GOERLI',
+    value: 'ETH_MAINNET',
   });
   const [showChain, setShowChain] = React.useState(false);
   const [selectedFilter, setSelectedFilter] = React.useState(6);

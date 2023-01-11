@@ -25,12 +25,14 @@ const DataProvider = ({ children }: { children: any }) => {
     {
       image: './static/ethereum.svg',
       chain: 'Ethereum Network',
-      value: 'ETH_TEST_GOERLI',
+      // value: 'ETH_TEST_GOERLI',
+      value: 'ETH_MAINNET',
     },
     {
       image: './static/polygon.svg',
       chain: 'Polygon Network',
-      value: 'POLYGON_TEST_MUMBAI',
+      // value: 'POLYGON_TEST_MUMBAI',
+      value: 'POLYGON_MAINNET',
     },
   ];
 

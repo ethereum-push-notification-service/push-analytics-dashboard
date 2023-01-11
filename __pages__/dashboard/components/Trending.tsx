@@ -23,14 +23,14 @@ export default function Trending() {
         startDate,
         endDate: firstEndDate,
         channel: 'All',
-        chain: 'ETH_TEST_GOERLI',
+        chain: 'ETH_MAINNET',
       });
 
       const weekRes = await getSubscribers({
         startDate,
         endDate: secondEndDate,
         channel: 'All',
-        chain: 'ETH_TEST_GOERLI',
+        chain: 'ETH_MAINNET',
       });
 
       const weekChannelDataResponse = weekRes?.subscriberAnalytics;

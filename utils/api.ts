@@ -4,7 +4,7 @@ import axios from 'axios';
 // Internal Components imports
 import { ROUTES, CREDENTIALKEYS } from './constants';
 
-const API_BASE = 'https://backend-staging.epns.io/apis/v1';
+const API_BASE = 'https://backend.epns.io/apis/v1';
 
 export const login = async ({ user, pass }) => {
   try {

@@ -65,7 +65,7 @@ export default function OverViewSet() {
         startDate: new Date('2022-01-01'),
         endDate: new Date(),
         channel: 'All',
-        chain: 'ETH_TEST_GOERLI',
+        chain: 'ETH_MAINNET',
       });
       const notifictionAnalyticsData =
         notificationResponse?.notificationAnalytics;
